@@ -23,11 +23,6 @@ This makes the two search methods directly comparable: greedy play is fast but r
 
 The app is one self-contained HTML file (`adversarial-ai-lab.html`) — no build step, no dependencies to install. It inlines React 18, ReactDOM, a Babel classic runtime + `_jsx`/`_jsxs` shim, and the Tailwind styles.
 
-You can open it straight from the GitHub repository — everything is inlined, so no clone is required:
-
-- **View the file:** https://github.com/Minhaj009/adversarial-ai-lab-2/blob/main/adversarial-ai-lab.html
-- **Run it live (no clone):** https://raw.githubusercontent.com/Minhaj009/adversarial-ai-lab-2/main/adversarial-ai-lab.html
-
 To run it locally, clone the repo and serve it over HTTP (a local server is recommended over `file://`):
 
 ```powershell
